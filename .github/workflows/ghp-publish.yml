@@ -7,10 +7,7 @@ on:
 env:
   DEFAULT_JDK_VERSION: 11
 
-concurrency:
-  # Only run once for latest commit per ref and cancel other (previous) runs.
-  group: ci-keycloak-${{ github.ref }}
-  cancel-in-progress: true
+concurrency: keycloak-gh-packages
 
 jobs:
   build:
