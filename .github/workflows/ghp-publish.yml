@@ -1,4 +1,4 @@
-name: Keycloak CI
+name: Keycloak publsh to GitHub Packages
 
 on:
   push:
